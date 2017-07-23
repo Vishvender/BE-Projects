@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".MainActivity"
+    android:background="#004D40"
+    android:id="@+id/first">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#004D40"
+        android:orientation="horizontal"
+        android:id="@+id/rg1"
+        android:onClick="onClickRadio"
+        android:paddingTop="5dp"
+        android:layout_above="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:id="@+id/radioTeacher"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:id="@+id/radioStudent"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:checked="false"
+            android:layout_weight="1"
+            android:onClick="onRadioButtonClicked" />
+    </RadioGroup>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/Loggedin"
+        android:background="#004D40"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:onClick="loggedIn"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/userid"
+        android:background="#00796B"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:background="#00796B"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/Loggedin"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="35dp"
+        android:gravity="center_horizontal"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="User ID"
+        android:id="@+id/textView7"
+        android:background="#00695C"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password"
+        android:id="@+id/textView8"
+        android:background="#00695C"
+        android:textColor="#ffffff"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="2dp"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/password"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+</RelativeLayout>

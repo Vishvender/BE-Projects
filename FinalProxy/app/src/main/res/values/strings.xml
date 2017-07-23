@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FinalProxy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Lecture">Lecture</string>
+    <string name="Tutorial">Tutorial</string>
+    <string name="Lab">Lab</string>
+    <string-array name="Course_Code">
+        <item>"Choose Course Code"</item>
+        <item>"UCS304"</item>
+        <item>"UCS305"</item>
+        <item>"UMA003"</item>
+        <item>"UEC001"</item>
+        <item>"UEC002"</item>
+        <item>"UHU003"</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>"Choose Year"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+
+    </string-array>
+    <string-array name="Branch">
+        <item>"Choose Branch"</item>
+        <item>"COE"</item>
+        <item>"CHE"</item>
+        <item>"CE"</item>
+        <item>"ECE"</item>
+        <item>"CML"</item>
+        <item>"CAG"</item>
+    </string-array>
+    <string-array name="SubGroups">
+        <item>"MainGroup"</item>
+        <item>"COE1"</item>
+        <item>"COE2"</item>
+        <item>"COE3"</item>
+        <item>"COE4"</item>
+        <item>"COE5"</item>
+        <item>"COE6"</item>
+        <item>"COE7"</item>
+        <item>"COE8"</item>
+        <item>"COE9"</item>
+    </string-array>
+    <string-array name="Groups">
+    <item>"Choose Group"</item>
+    <item>"G1"</item>
+    <item>"G2"</item>
+    </string-array>
+
+</resources>
